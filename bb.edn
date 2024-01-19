@@ -1,0 +1,6 @@
+{:tasks
+ {build {:doc "Build the static sci-koans site"
+         :task (do (shell "npm install")
+                   (shell "npx shadow-cljs release app")
+                   (println "Built public"))}
+  watch (shell "npx shadow-cljs watch app")}}

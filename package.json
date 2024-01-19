@@ -1,0 +1,7 @@
+{
+  "name": "sci_koans",
+  "version": "1.0.0",
+  "devDependencies": {
+    "shadow-cljs": "^2.26.5"
+  }
+}

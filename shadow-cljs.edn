@@ -1,0 +1,9 @@
+{:deps     true
+ :dev-http {8000 "public"}
+ :builds   {:app {:compiler-options {:output-feature-set :es8
+                                     :optimizations :advanced
+                                     :source-map true
+                                     :output-wrapper false}
+                  :target     :browser
+                  :modules    {:main {:init-fn sci-koans.main/init}}
+                  :devtools   {:after-load sci-koans.main/reload}}}}
