@@ -1,9 +1,11 @@
 {:deps     true
- :dev-http {8000 "public"}
+ :dev-http {8000 "docs"}
  :builds   {:app {:compiler-options {:output-feature-set :es8
                                      :optimizations :advanced
                                      :source-map true
                                      :output-wrapper false}
+                  :output-dir "docs/js"
+                  :asset-path "/js"
                   :target     :browser
                   :modules    {:main {:init-fn sci-koans.main/init}}
                   :devtools   {:after-load sci-koans.main/reload}}}}

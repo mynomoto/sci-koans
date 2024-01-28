@@ -1,0 +1,238 @@
+/* line 1, sass/_static.sass */
+.static {
+  display: none;
+  font-size: 20px;
+  line-height: 1.5em;
+  margin: auto;
+  text-align: justify;
+  width: 100%;
+}
+/* line 9, sass/_static.sass */
+.static h1 {
+  font-family: Optima, PT Sans, Lucida Grande, sans-serif;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+/* line 13, sass/_static.sass */
+.static .about {
+  clear: both;
+}
+/* line 16, sass/_static.sass */
+.static .start {
+  background: #6eaf66;
+  box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+  float: right;
+  font-size: 25px;
+  font-family: Optima, PT Sans, Lucida Grande, sans-serif;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+/* line 30, sass/_static.sass */
+.static .content {
+  margin: auto;
+  width: 650px;
+}
+
+/* line 35, sass/_static.sass */
+#the-end .share {
+  margin: auto;
+  vertical-align: top;
+  width: 100px;
+}
+/* line 40, sass/_static.sass */
+#the-end .share iframe {
+  width: 200px;
+  height: 200px;
+}
+/* line 44, sass/_static.sass */
+#the-end ul {
+  margin-left: 60px;
+  margin-bottom: 40px;
+}
+/* line 47, sass/_static.sass */
+#the-end a {
+  font-family: Optima, PT Sans, Lucida Grande, sans-serif;
+  font-weight: 100;
+}
+
+/* line 5, sass/style.sass */
+body {
+  background-color: #F0E8E1;
+  backgound: url("../images/paper.jpg");
+  color: #555;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 28px;
+  overflow-x: hidden;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+}
+
+/* line 15, sass/style.sass */
+a {
+  color: #0078c1;
+  text-decoration: none;
+}
+
+/* line 19, sass/style.sass */
+.category {
+  display: none;
+  font-family: Optima, PT Sans, Lucida Grande, sans-serif;
+  font-weight: 100;
+  font-weight: 200;
+  left: 40px;
+  position: absolute;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  text-transform: capitalize;
+  top: 20px;
+}
+/* line 30, sass/style.sass */
+.category.unfaded {
+  opacity: 0.7;
+}
+
+/* line 33, sass/style.sass */
+.circle {
+  bottom: 20px;
+  height: 50%;
+  opacity: 0.1;
+  position: fixed;
+  right: 20px;
+  z-index: -1;
+}
+
+/* line 41, sass/style.sass */
+.error {
+  color: #D33;
+  font-size: 18px;
+  padding-top: 10px;
+  display: none;
+}
+
+/* line 47, sass/style.sass */
+.functions {
+  margin: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+/* line 52, sass/style.sass */
+.functions .function {
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin: 10px;
+  max-width: 860px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  text-align: left;
+  vertical-align: top;
+}
+/* line 66, sass/style.sass */
+.functions .function pre, .functions .function input {
+  font-size: 24px;
+  font-family: Monaco, Inconsolata, Menlo, Courier;
+  display: inline-block;
+  font-size: 16px;
+}
+/* line 71, sass/style.sass */
+.functions .function input {
+  border-bottom: 1px dashed #AAA;
+  margin-right: 6px;
+}
+
+/* line 76, sass/style.sass */
+.koan {
+  display: none;
+  max-width: 900px;
+  margin: auto;
+  padding-top: 15%;
+  text-align: center;
+}
+/* line 83, sass/style.sass */
+.koan.has-functions {
+  padding-top: 8%;
+}
+/* line 86, sass/style.sass */
+.koan .description {
+  margin: 20px;
+  width: 100%;
+}
+/* line 90, sass/style.sass */
+.koan .code-box {
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  font-size: 24px;
+  font-family: Monaco, Inconsolata, Menlo, Courier;
+  text-shadow: none;
+  -moz-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 98, sass/style.sass */
+.koan .code-box.incorrect {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+/* line 107, sass/style.sass */
+.koan .shadow {
+  position: absolute;
+  visibility: hidden;
+}
+/* line 111, sass/style.sass */
+.koan .parentheses-0 {
+  color: #097ACC;
+}
+/* line 114, sass/style.sass */
+.koan .parentheses-1 {
+  color: #FF7E64;
+}
+/* line 117, sass/style.sass */
+.koan .parentheses-2 {
+  color: #25FFE7;
+}
+/* line 120, sass/style.sass */
+.koan .parentheses-3 {
+  color: #CC0D09;
+}
+/* line 123, sass/style.sass */
+.koan .parentheses-4 {
+  color: #4C7899;
+}
+/* line 126, sass/style.sass */
+.koan .parentheses-5 {
+  color: #55CC09;
+}
+/* line 129, sass/style.sass */
+.koan .parentheses-6 {
+  color: #99614C;
+}
+/* line 132, sass/style.sass */
+.koan input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px dashed #AAA;
+  font-size: 24px;
+  font-family: Monaco, Inconsolata, Menlo, Courier;
+  color: #0068a7;
+  text-align: center;
+  -moz-transition: width 0.2s ease-in-out;
+  -o-transition: width 0.2s ease-in-out;
+  -webkit-transition: width 0.2s ease-in-out;
+  transition: width 0.2s ease-in-out;
+  width: 56px;
+  -webkit-appearance: none;
+}
+/* line 143, sass/style.sass */
+.koan input:focus {
+  outline: none;
+}
