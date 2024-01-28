@@ -10,5 +10,9 @@
         thheller/shadow-cljs {:mvn/version "2.26.5"}
         funcool/promesa {:git/url "https://github.com/funcool/promesa"
                          :git/sha "e503874b154224ce85b223144e80b697df91d18e"}
+
+        ;legacy
+        prismatic/dommy {:mvn/version "0.1.2"}
+        jayq/jayq {:mvn/version "2.5.4"}
         }
  }
