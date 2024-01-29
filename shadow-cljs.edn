@@ -3,6 +3,7 @@
  :builds   {:app {:compiler-options {:output-feature-set :es8
                                      :optimizations :advanced
                                      :source-map true
+                                     :externs ["externs/jquery.ext.js"]
                                      :output-wrapper false}
                   :output-dir "docs/js"
                   :asset-path "/js"

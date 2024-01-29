@@ -7,7 +7,7 @@
   "Para entender a realidade, precisamos comparar nossas expectativas com a realidade"
   (= :__ (+ 1 1))
 
-  "Podemos testar a igualdadae de muitas coisas"
+  "Podemos testar a igualdade de muitas coisas"
   (= (+ 3 4) 7 (+ 2 :__))
 
   "Algumas coisas parecem diferentes mas são a mesma"
